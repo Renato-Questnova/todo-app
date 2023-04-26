@@ -8,9 +8,9 @@ async function bootstrap() {
 
   // http://localhost:9090/api
   const config = new DocumentBuilder()
-    .setTitle('Booking System API')
-    .setDescription('Capstone Project')
-    .addTag('ABSR')
+    .setTitle('TODO API')
+    .setDescription('Side Project')
+    .addTag('TODOS')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);

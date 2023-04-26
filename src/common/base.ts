@@ -11,24 +11,6 @@ export abstract class Base {
   id: number;
 
   /**
-   * created_by
-   */
-  @Column({
-    nullable: false,
-    default: '',
-  })
-  created_by: string;
-
-  /**
-   * updated_by
-   */
-  @Column({
-    nullable: false,
-    default: '',
-  })
-  updated_by: string;
-
-  /**
    * created_date
    */
   @CreateDateColumn()
